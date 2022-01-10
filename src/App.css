@@ -6,6 +6,6 @@
   background-color: #111;
 }
 
-.app::-webkit-scrollbar {
+body::-webkit-scrollbar {
   display: none;
 }
