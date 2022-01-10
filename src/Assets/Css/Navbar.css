@@ -1,0 +1,35 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vh;
+  height: 6vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 10%,
+    rgba(0, 0, 0, 0)
+  );
+
+  z-index: 1;
+  transition: all 0.5s ease-in 0s;
+}
+
+.scroll {
+  background-color: black;
+}
+
+.nav_logo {
+  position: fixed;
+  left: 2vh;
+  width: 6vw;
+  object-fit: contain;
+}
+
+.nav_avatar {
+  position: fixed;
+  right: 2vh;
+  width: 2vw;
+  object-fit: contain;
+}
